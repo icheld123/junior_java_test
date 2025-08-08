@@ -17,6 +17,8 @@ src/
 │   ├── interfaces/            # Interfaces de los ejercicios POO
 │   ├── model/                 # Clase Documento
 │   └── implementation/        # Implementaciones de fuentes, salidas y buscador
+├── out/                       # Archivos .class generados tras la compilación
+├── docs/                      # Documentación HTML generada con JavaDoc
 ```
 
 ---
@@ -82,7 +84,7 @@ También puedes ejecutarlos desde un IDE como IntelliJ IDEA o Eclipse.
 - El proyecto **no usa frameworks web** como Spring Boot.
 - No se incluye Swagger, ya que no se exponen APIs HTTP.
 - Se utilizó Java puro y una estructura modular para claridad y mantenibilidad.
-- Se recomienda revisar el código fuente acompañado de los comentarios JavaDoc.
+- Se recomienda revisar el código fuente acompañado de los comentarios Javadoc, la cual también podrá ver abriendo el archivo `docs/index.html` en el buscador.
 
 ---
 
