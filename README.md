@@ -34,7 +34,7 @@ Determinar si es posible reordenar los caracteres de una cadena para formar un p
 
 **Ejemplo de uso:**
 ```bash
-java app.PalindromeMain
+java -cp out app.PalindromeMain
 ```
 
 ---
@@ -59,8 +59,7 @@ Simular un sistema de crawling, procesamiento e indexación de documentos desde 
 
 **Ejemplo de uso:**
 ```bash
-Ejercicio 1  -> java -cp out app.PalindromeMain
-Ejercicio 2  -> java -cp out app.PooMain
+java -cp out app.PooMain
 ```
 
 ---
