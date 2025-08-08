@@ -13,7 +13,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Clase principal que demuestra el uso del sistema de obtención de documentos.
+ * Clase principal que ejecuta el ejercicio 2 de la prueba técnica.
+ *
+ * Esta clase demuestra el uso de un sistema orientado a objetos que simula:
+ * - Obtención de documentos desde múltiples fuentes de datos.
+ * - Presentación de los documentos mediante diferentes tipos de salida.
+ * - Ejecución de una búsqueda simulada sobre los documentos obtenidos.
+ *
+ * <p>El flujo principal incluye:</p>
+ * <ul>
+ *     <li>Instanciación de fuentes de datos (archivo, web, base de datos)</li>
+ *     <li>Recopilación y visualización de todos los documentos</li>
+ *     <li>Salida de los documentos mediante dos métodos distintos</li>
+ *     <li>Simulación de búsqueda con resultados fijos</li>
+ * </ul>
+ *
+ * @author Ichel Delgado
  */
 public class PooMain {
     public static void main(String[] args) {

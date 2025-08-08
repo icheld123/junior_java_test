@@ -2,6 +2,29 @@ package palindrome;
 
 import java.util.HashMap;
 
+/**
+ * Clase encargada de construir un palíndromo a partir de una cadena de entrada,
+ * si es posible reorganizando sus caracteres.
+ *
+ * Un palíndromo es una secuencia que se lee igual de izquierda a derecha que de derecha a izquierda.
+ *
+ * Esta clase forma parte del ejercicio 1 de la prueba técnica.
+ *
+ * Ejemplo de uso:
+ * <pre>
+ * PalindromeBuilder pb = new PalindromeBuilder();
+ * String resultado = pb.buildPalindrome("civic");  // civic
+ * </pre>
+ *
+ * Complejidad:
+ * <ul>
+ *   <li>Tiempo: O(n), donde n es la longitud de la cadena de entrada</li>
+ *   <li>Espacio: O(k), donde k es el número de caracteres únicos (máx. 26 para alfabeto inglés)</li>
+ * </ul>
+ *
+ * @author Ichel Delgado
+ */
+
 public class PalindromeBuilder {
 
     public String buildPalindrome(String input) {
